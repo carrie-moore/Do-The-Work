@@ -1,0 +1,19 @@
+{
+  "name": "dothework",
+  "version": "1.0.0",
+  "description": "A Goal Tracking App built with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carriecarter/Do-The-Work.git"
+  },
+  "author": "Carrie Carter hello@carrie-carter.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carriecarter/Do-The-Work/issues"
+  },
+  "homepage": "https://github.com/carriecarter/Do-The-Work#readme"
+}
