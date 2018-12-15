@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/carriecarter/Do-The-Work/issues"
   },
-  "homepage": "https://github.com/carriecarter/Do-The-Work#readme"
+  "homepage": "https://github.com/carriecarter/Do-The-Work#readme",
+  "dependencies": {
+    "eslintrc": "^1.0.6"
+  }
 }
