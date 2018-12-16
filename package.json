@@ -4,7 +4,12 @@
   "description": "A Goal Tracking App built with React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0",
+    "lint": "eslint .",
+    "jest": "jest -c ./jest/jest.config.js",
+    "test:watch": "npm run test -- --watch",
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --hot --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -17,6 +22,27 @@
   },
   "homepage": "https://github.com/carriecarter/Do-The-Work#readme",
   "dependencies": {
-    "eslintrc": "^1.0.6"
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "eslintrc": "^1.0.6",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-react": "^7.11.0",
+    "mocha": "^5.2.0",
+    "react-dom": "^16.6.3",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   }
 }
